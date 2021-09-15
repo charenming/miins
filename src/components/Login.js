@@ -1,13 +1,13 @@
 import React from 'react';
-// import useHistory from 'react-router-dom';
+import './App.css';
+import { Route, Switch } from 'react-router-dom';
 
-function Login(props){
-    // let history = useHistory(); 
+function login() {
     return (
-        <div class="container">
-            hihi
+        <div>
+                LOGIN
         </div>
     )
 }
 
-export default Login
+export default login

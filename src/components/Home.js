@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Join() {
+function Home() {
     return (
         <div>
-            join
+            kk
         </div>
     )
 }
 
-export default Join
+export default Home

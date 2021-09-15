@@ -1,18 +1,14 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-function Write(props){
+
+
+function Write(){
     return (
-        <div class="container">
-
-            ihihhi
+        <div>
+                write
         </div>
     )
-
 }
-
-
-
-
-
 
 export default Write
