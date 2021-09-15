@@ -1,7 +1,8 @@
 * { 
   margin:0; 
   padding:0;
-  color:#333;
+  color:#666;
+  overflow-x: hidden;
 }
 
 ul, li {
@@ -14,53 +15,62 @@ header {
   justify-content:space-between;
   padding:20px;
   height:80px;
+  background-color: #e0d8d0;
 }
 
+nav {
+
+}
 .navbar {
   display: flex;
   justify-content: center;
+  
 }
 
 .navbar>li {
   padding:5px;
+  line-height: 60px;
 }
 
 .logo {
-  
+
 }
-.logo>p {
-  
+.logo>img {
+  height: 70px;
+  margin-top:0;
 }
 .family {
   display: flex;
   justify-content: center;
+  line-height: 60px;
 }
 .family>li {
   padding:5px;
 }
 
-
 .contents {
-  height:590px;
+  height:500px;
   text-align: center;
+  padding-top:50px;
 }
 
 .subject {
-  width:100vw;
+text-align: center;
 
 }
 .community {
-  width:100vw;
+
 }
 
 .commuTxt {
-  width:100vw;
+
+
   margin-bottom:40px;
+  color:#e0d8d0;
 
 }
 .boardBox {
   height:300px;
-
 }
 
 
@@ -71,10 +81,17 @@ header {
 }
 
 th {border:1px solid #555;}
-.no {width:50px;}
-.subject {width:200px;}
-.name {width:100px;}
+.no, .pop {width:50px;}
+.subject {width:600px;}
+.name {width:150px;}
 .date {width:150px;}
+
+.write {
+  background-color: #e0d8d0;
+  border:none;
+  border-radius: 5px;
+  padding:5px;
+}
 
 footer {
   padding:0 20px 20px 0;
