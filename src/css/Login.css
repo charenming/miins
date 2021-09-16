@@ -1,29 +1,30 @@
-
 th {
-    background-color: #e0d8d0;
-    border:none;
-    border-radius: 5px;
-    padding:5px;
-    }
+  background-color: #e0d8d0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
 
 .loginLine {
-    border:1px solid #e0d8d0;
-    width:200px;
-    height:30px;
-    border-radius: 5px; 
+  border: 1px solid #e0d8d0;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+
+.loginBtn,
+.findIdBtn,
+.findPwBtn {
+  background-color: #e0d8d0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 1px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .loginChkBox {
-    margin-top:20px;
+  margin-top: 20px;
 }
-
-.loginBtn, .findIdBtn, .findPwBtn {
-    background-color: #e0d8d0;
-    border:none;
-    border-radius: 5px;
-    padding:5px 10px;
-    margin:1px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  

@@ -17,50 +17,38 @@ import { Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div>
+      <Header />
       <Switch>
-        <Route path="/main">
-          <Header />
+        <Route exact path="/">
           <Main />
-          <Footer />
         </Route>
 
-        <Route exact path="/community">
-          <Header />
+        <Route path="/community">
           <Community />
-          <Footer />
         </Route>
 
-        <Route path="/Qna">
-          <Header />
+        <Route path="/qna">
           <Qna />
-          <Footer />
         </Route>
 
         <Route path="/write">
-          <Header />
           <Write />
-          <Footer />
         </Route>
         
         <Route path="/login">
-          <Header />
           <Login />
-          <Footer />
         </Route>
 
         <Route path="/join">
-          <Header />
           <Join />
-          <Footer />
         </Route>
 
         <Route path="/Mypage">
-          <Header />
           <Mypage />
-          <Footer />
         </Route>
 
       </Switch>
+      <Footer />
     </div>
   );
 }
