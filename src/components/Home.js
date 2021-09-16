@@ -1,4 +1,6 @@
 import React from 'react'
+import './../css/Reset.css';
+
 
 function Home() {
     return (

@@ -1,9 +1,13 @@
 import React from 'react'
+import './../css/Reset.css';
 
 function Join() {
     return (
         <div class="contents">
-            <h2 class="joinTitle">회원가입</h2>
+            <div class="subjects">
+                <h1 class="bodyNm">JOIN</h1>
+                <h4 class="bodySubNm"> </h4>
+            </div>
 
 
             

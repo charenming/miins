@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import './../css/Reset.css';
 import './../css/Qna.css';
 
 function Qna() {
@@ -8,6 +9,7 @@ function Qna() {
             <div class="contents">
                 <div class="subjects">
                     <h1 class="qna">QNA</h1>
+                    <h4 class="bodySubNm">Question and Answer</h4>
                 </div>
 
                 <thead class="boardBox">

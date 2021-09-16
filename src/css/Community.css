@@ -1,23 +1,4 @@
-* { 
-    margin:0; 
-    padding:0;
-    color:#666;
-    overflow-x: hidden;
-    text-decoration: none;
-  }
-  
-  ul, li {
-    list-style: none;
-  
-  }
 
-  
-.contents {
-    height:500px;
-    text-align: center;
-    padding-top:50px;
-  }
-  
   .subjects {
   text-align: center;
   
@@ -40,13 +21,25 @@
     width:100vw;
     display: flex;
     justify-content: center;
+    margin:1px;
   }
   
-  th {border:1px solid #555;}
-  .no, .pop {width:50px;}
-  .subject {width:600px;}
-  .name {width:150px;}
-  .date {width:150px;}
+  th {
+    border:1px solid #555;
+    margin:1px;
+}
+  .no, .pop {
+      width:50px;
+    }
+  .subject {
+      width:600px;
+    }
+  .name {
+      width:150px;
+    }
+  .date {
+      width:150px;
+    }
   
   .write {
     background-color: #e0d8d0;
