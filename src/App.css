@@ -49,51 +49,6 @@ nav {
   padding:5px;
 }
 
-.contents {
-  height:500px;
-  text-align: center;
-  padding-top:50px;
-}
-
-.subject {
-text-align: center;
-
-}
-.community {
-
-}
-
-.commuTxt {
-
-
-  margin-bottom:40px;
-  color:#e0d8d0;
-
-}
-.boardBox {
-  height:300px;
-}
-
-
-.Box {
-  width:100vw;
-  display: flex;
-  justify-content: center;
-}
-
-th {border:1px solid #555;}
-.no, .pop {width:50px;}
-.subject {width:600px;}
-.name {width:150px;}
-.date {width:150px;}
-
-.write {
-  background-color: #e0d8d0;
-  border:none;
-  border-radius: 5px;
-  padding:5px;
-}
-
 .footer {
   padding:0 20px 20px 0;
 }
